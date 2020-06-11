@@ -19,3 +19,5 @@ git clone https://github.com/peter279k/tw-cap-archive-downloader
 # References
 
 - [zip_archive_url](https://alerts.ncdr.nat.gov.tw/AlertdataDownload.aspx)
+- [CAP reference](https://alerts.ncdr.nat.gov.tw/CAPfiledownload.aspx)
+- [RSS for Alert Notification](https://alerts.ncdr.nat.gov.tw/RSS.aspx)
