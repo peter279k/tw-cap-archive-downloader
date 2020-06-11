@@ -13,7 +13,7 @@ git clone https://github.com/peter279k/tw-cap-archive-downloader
 - Setup Cron schedule job on targeted machine and sepcific time is up to developers :).
 
 ```Bash
-0  11 * * * cd /path/to/tw-cap-archive-downloader && bash ./cap-downloader.sh > "result.txt"
+*/60 */11 * * * cd /path/to/tw-cap-archive-downloader && bash ./cap-downloader.sh > "result.txt"
 ```
 
 # References
