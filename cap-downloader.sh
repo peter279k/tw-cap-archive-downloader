@@ -22,7 +22,7 @@ wget -q --no-check-certificate https://alerts.ncdr.nat.gov.tw/AlertdataDownload.
 cat AlertdataDownload.aspx | grep ${today_date} 2>&1 > /dev/null
 
 if [[ $? != 0 ]]; then
-    echo "Do nothing"
+    echo "Cannot find ${today_date} zip archive file on remote URL..."
     rm -f ${PWD}"/AlertdataDownload.aspx"
 
     exit 0;
